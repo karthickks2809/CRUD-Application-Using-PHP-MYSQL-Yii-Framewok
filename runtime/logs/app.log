@@ -1,0 +1,367 @@
+2024-04-02 08:13:17 [::1][-][ubhhjkmvk7g36cqkimmsmelkhh][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "web/gii". in C:\Users\Dell\basic\vendor\yiisoft\yii2\base\Module.php:562
+Stack trace:
+#0 C:\Users\Dell\basic\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('web/gii', Array)
+#1 C:\Users\Dell\basic\vendor\yiisoft\yii2\base\Application.php(385): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Dell\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Dell\basic\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 C:\Users\Dell\basic\vendor\yiisoft\yii2\base\Application.php(385): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Dell\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-04-02 08:13:17 [::1][-][ubhhjkmvk7g36cqkimmsmelkhh][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubhhjkmvk7g36cqkimmsmelkhh'
+    '_csrf' => '8cb38973175595b6dc78f08af6d126130e2d56de00f1614ac3b7b44ef6cda03aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CfhYkU8n3M5Bc4eBr8YNSNNCprIPqq0W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\Dell\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54686'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/web/gii'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\Dell\\basic\\web\\index.php'
+    'PATH_INFO' => '/web/gii'
+    'PHP_SELF' => '/index.php/web/gii'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ta;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=ubhhjkmvk7g36cqkimmsmelkhh; _csrf=8cb38973175595b6dc78f08af6d126130e2d56de00f1614ac3b7b44ef6cda03aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CfhYkU8n3M5Bc4eBr8YNSNNCprIPqq0W%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1712038397.3226
+    'REQUEST_TIME' => 1712038397
+]
+2024-04-02 08:13:57 [::1][-][ubhhjkmvk7g36cqkimmsmelkhh][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "basic/web/gii". in C:\Users\Dell\basic\vendor\yiisoft\yii2\base\Module.php:562
+Stack trace:
+#0 C:\Users\Dell\basic\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('basic/web/gii', Array)
+#1 C:\Users\Dell\basic\vendor\yiisoft\yii2\base\Application.php(385): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Dell\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Dell\basic\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 C:\Users\Dell\basic\vendor\yiisoft\yii2\base\Application.php(385): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Dell\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-04-02 08:13:57 [::1][-][ubhhjkmvk7g36cqkimmsmelkhh][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubhhjkmvk7g36cqkimmsmelkhh'
+    '_csrf' => '8cb38973175595b6dc78f08af6d126130e2d56de00f1614ac3b7b44ef6cda03aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CfhYkU8n3M5Bc4eBr8YNSNNCprIPqq0W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\Dell\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54707'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/basic/web/gii'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\Dell\\basic\\web\\index.php'
+    'PATH_INFO' => '/basic/web/gii'
+    'PHP_SELF' => '/index.php/basic/web/gii'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ta;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=ubhhjkmvk7g36cqkimmsmelkhh; _csrf=8cb38973175595b6dc78f08af6d126130e2d56de00f1614ac3b7b44ef6cda03aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CfhYkU8n3M5Bc4eBr8YNSNNCprIPqq0W%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1712038437.0281
+    'REQUEST_TIME' => 1712038437
+]
+2024-04-02 08:14:10 [::1][-][ubhhjkmvk7g36cqkimmsmelkhh][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "basic/index". in C:\Users\Dell\basic\vendor\yiisoft\yii2\base\Module.php:562
+Stack trace:
+#0 C:\Users\Dell\basic\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('basic/index', Array)
+#1 C:\Users\Dell\basic\vendor\yiisoft\yii2\base\Application.php(385): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Dell\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Dell\basic\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 C:\Users\Dell\basic\vendor\yiisoft\yii2\base\Application.php(385): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Dell\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-04-02 08:14:10 [::1][-][ubhhjkmvk7g36cqkimmsmelkhh][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubhhjkmvk7g36cqkimmsmelkhh'
+    '_csrf' => '8cb38973175595b6dc78f08af6d126130e2d56de00f1614ac3b7b44ef6cda03aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CfhYkU8n3M5Bc4eBr8YNSNNCprIPqq0W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\Dell\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54717'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/basic/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\Dell\\basic\\web\\index.php'
+    'PATH_INFO' => '/basic/index'
+    'PHP_SELF' => '/index.php/basic/index'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ta;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=ubhhjkmvk7g36cqkimmsmelkhh; _csrf=8cb38973175595b6dc78f08af6d126130e2d56de00f1614ac3b7b44ef6cda03aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CfhYkU8n3M5Bc4eBr8YNSNNCprIPqq0W%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1712038450.2489
+    'REQUEST_TIME' => 1712038450
+]
+2024-04-02 08:14:40 [::1][-][ubhhjkmvk7g36cqkimmsmelkhh][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "basic/site/index". in C:\Users\Dell\basic\vendor\yiisoft\yii2\base\Module.php:562
+Stack trace:
+#0 C:\Users\Dell\basic\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('basic/site/inde...', Array)
+#1 C:\Users\Dell\basic\vendor\yiisoft\yii2\base\Application.php(385): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Dell\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Dell\basic\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 C:\Users\Dell\basic\vendor\yiisoft\yii2\base\Application.php(385): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Dell\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-04-02 08:14:40 [::1][-][ubhhjkmvk7g36cqkimmsmelkhh][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubhhjkmvk7g36cqkimmsmelkhh'
+    '_csrf' => '8cb38973175595b6dc78f08af6d126130e2d56de00f1614ac3b7b44ef6cda03aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CfhYkU8n3M5Bc4eBr8YNSNNCprIPqq0W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\Dell\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54731'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/basic/site/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\Dell\\basic\\web\\index.php'
+    'PATH_INFO' => '/basic/site/index'
+    'PHP_SELF' => '/index.php/basic/site/index'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ta;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=ubhhjkmvk7g36cqkimmsmelkhh; _csrf=8cb38973175595b6dc78f08af6d126130e2d56de00f1614ac3b7b44ef6cda03aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CfhYkU8n3M5Bc4eBr8YNSNNCprIPqq0W%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1712038480.7397
+    'REQUEST_TIME' => 1712038480
+]
+2024-04-02 08:14:49 [::1][-][ubhhjkmvk7g36cqkimmsmelkhh][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "projects/basic/site/index". in C:\Users\Dell\basic\vendor\yiisoft\yii2\base\Module.php:562
+Stack trace:
+#0 C:\Users\Dell\basic\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('projects/basic/...', Array)
+#1 C:\Users\Dell\basic\vendor\yiisoft\yii2\base\Application.php(385): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\Users\Dell\basic\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\Users\Dell\basic\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 C:\Users\Dell\basic\vendor\yiisoft\yii2\base\Application.php(385): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\Users\Dell\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-04-02 08:14:49 [::1][-][ubhhjkmvk7g36cqkimmsmelkhh][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubhhjkmvk7g36cqkimmsmelkhh'
+    '_csrf' => '8cb38973175595b6dc78f08af6d126130e2d56de00f1614ac3b7b44ef6cda03aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CfhYkU8n3M5Bc4eBr8YNSNNCprIPqq0W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\Dell\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54738'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/projects/basic/site/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\Dell\\basic\\web\\index.php'
+    'PATH_INFO' => '/projects/basic/site/index'
+    'PHP_SELF' => '/index.php/projects/basic/site/index'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ta;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=ubhhjkmvk7g36cqkimmsmelkhh; _csrf=8cb38973175595b6dc78f08af6d126130e2d56de00f1614ac3b7b44ef6cda03aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CfhYkU8n3M5Bc4eBr8YNSNNCprIPqq0W%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1712038489.5256
+    'REQUEST_TIME' => 1712038489
+]
+2024-04-02 08:32:53 [::1][-][ubhhjkmvk7g36cqkimmsmelkhh][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Either GD PHP extension with FreeType support or ImageMagick PHP extension with PNG support is required. in C:\Users\Dell\basic\vendor\yiisoft\yii2\captcha\Captcha.php:176
+Stack trace:
+#0 C:\Users\Dell\basic\vendor\yiisoft\yii2\captcha\Captcha.php(95): yii\captcha\Captcha::checkRequirements()
+#1 C:\Users\Dell\basic\vendor\yiisoft\yii2\base\BaseObject.php(110): yii\captcha\Captcha->init()
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 C:\Users\Dell\basic\vendor\yiisoft\yii2\di\Container.php(420): ReflectionClass->newInstanceArgs(Array)
+#4 C:\Users\Dell\basic\vendor\yiisoft\yii2\di\Container.php(171): yii\di\Container->build('yii\\captcha\\Cap...', Array, Array)
+#5 C:\Users\Dell\basic\vendor\yiisoft\yii2\BaseYii.php(366): yii\di\Container->get('yii\\captcha\\Cap...', Array, Array)
+#6 C:\Users\Dell\basic\vendor\yiisoft\yii2\base\Widget.php(144): yii\BaseYii::createObject(Array)
+#7 C:\Users\Dell\basic\vendor\yiisoft\yii2\widgets\ActiveField.php(796): yii\base\Widget::widget(Array)
+#8 C:\Users\Dell\basic\views\site\contact.php(55): yii\widgets\ActiveField->widget('yii\\captcha\\Cap...', Array)
+#9 C:\Users\Dell\basic\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\Dell\\b...')
+#10 C:\Users\Dell\basic\vendor\yiisoft\yii2\base\View.php(258): yii\base\View->renderPhpFile('C:\\Users\\Dell\\b...', Array)
+#11 C:\Users\Dell\basic\vendor\yiisoft\yii2\base\View.php(157): yii\base\View->renderFile('C:\\Users\\Dell\\b...', Array, Object(app\controllers\SiteController))
+#12 C:\Users\Dell\basic\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\View->render('contact', Array, Object(app\controllers\SiteController))
+#13 C:\Users\Dell\basic\controllers\SiteController.php(115): yii\base\Controller->render('contact', Array)
+#14 [internal function]: app\controllers\SiteController->actionContact()
+#15 C:\Users\Dell\basic\vendor\yiisoft\yii2\base\InlineAction.php(58): call_user_func_array(Array, Array)
+#16 C:\Users\Dell\basic\vendor\yiisoft\yii2\base\Controller.php(179): yii\base\InlineAction->runWithParams(Array)
+#17 C:\Users\Dell\basic\vendor\yiisoft\yii2\base\Module.php(553): yii\base\Controller->runAction('contact', Array)
+#18 C:\Users\Dell\basic\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('site/contact', Array)
+#19 C:\Users\Dell\basic\vendor\yiisoft\yii2\base\Application.php(385): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 C:\Users\Dell\basic\web\index.php(12): yii\base\Application->run()
+#21 {main}
+2024-04-02 08:32:52 [::1][-][ubhhjkmvk7g36cqkimmsmelkhh][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ubhhjkmvk7g36cqkimmsmelkhh'
+    '_csrf' => '8cb38973175595b6dc78f08af6d126130e2d56de00f1614ac3b7b44ef6cda03aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"CfhYkU8n3M5Bc4eBr8YNSNNCprIPqq0W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\Users\\Dell\\basic\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55064'
+    'SERVER_SOFTWARE' => 'PHP 8.0.30 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/site/contact'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\Users\\Dell\\basic\\web\\index.php'
+    'PATH_INFO' => '/site/contact'
+    'PHP_SELF' => '/index.php/site/contact'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8080/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ta;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=ubhhjkmvk7g36cqkimmsmelkhh; _csrf=8cb38973175595b6dc78f08af6d126130e2d56de00f1614ac3b7b44ef6cda03aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CfhYkU8n3M5Bc4eBr8YNSNNCprIPqq0W%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1712039572.9544
+    'REQUEST_TIME' => 1712039572
+]
